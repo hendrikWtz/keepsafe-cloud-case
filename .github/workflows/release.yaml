@@ -22,4 +22,7 @@ jobs:
       - id: show-pipeline-environement
         name: LeukeNaam
         run: ls
+      - name: Build the Docker image
+        run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+
 
