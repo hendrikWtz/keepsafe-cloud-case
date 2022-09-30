@@ -24,6 +24,6 @@ jobs:
         run: ls
       - run: docker version
       - name: Build the Docker image
-        run: docker build . --tag my-image-name:0.0.1
+        run: docker build . --tag hendrikwat/my-image-name:0.0.1
 
 
