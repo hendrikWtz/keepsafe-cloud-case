@@ -2,7 +2,7 @@ name: Showcase
 on:
   push:
     branches:
-      - main
+      - master
 env:
   SHOWCASE_ENV: lol
 jobs:
